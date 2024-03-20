@@ -31,12 +31,12 @@
     <span>
      <label>What to Write In?</label>
      <select class="form-select" id="selectedOption" aria-label="Default select example" placeholder="Choose Service">
-      <option value="Choose Service" selected>Choose Service</option>
-      <option value="A4 Assignment">A4 Assignment</option>
-      <option value="New Lab Record (Extra ₹60)">New Lab Record (Extra ₹60)</option>
-      <option value="New Class Notebook (Extra ₹40)">New Class Notebook (Extra ₹40)</option>
-      <option value="Submit Existing Class Notebook at above Chosen Outlet">Submit Existing Class Notebook at above Chosen Outlet</option>
-      <option value="Submit Existing Lab Record at above Chosen Outlet">Submit Existing Lab Record at above Chosen Outlet</option>
+      <option  value="Choose Service" selected>Choose Service</option>
+      <option  value="A4 Assignment">A4 Assignment</option>
+      <option  value="New Lab Record (Extra ₹60)">New Lab Record (Extra ₹60)</option>
+      <option  value="New Class Notebook (Extra ₹40)">New Class Notebook (Extra ₹40)</option>
+      <option  value="Submit Existing Class Notebook at above Chosen Outlet" >Submit Existing Class Notebook at above Chosen Outlet</option>
+      <option  value="Submit Existing Lab Record at above Chosen Outlet" >Submit Existing Lab Record at above Chosen Outlet</option>
      </select>
      <br/><br/>
     </span>
@@ -85,13 +85,18 @@
     <label for="Refrence Code">Refrence Code</label><br/>
     <input id="ref" type="text" placeholder="Refrence Code">
    </span>
-  <span>
+</br>
+    <span>
+      </br>
+      <label for="email">Writer's Rate</label><br/>
+      <input id="Rate_Writers" type="number" placeholder="Writer's Rate/Side">
+     </span>
 
-   <br/>
+    </br>
  
    
    <button onclick="sendToWhatsapp()" style="width: 100%;" >Client Copy</button>
-   <button onclick="sendToWhatsapp()" style="width: 100%;" >Writer's Copy</button>
+   <button onclick="Whatsapp()" style="width: 100%;" >Writer's Copy</button>
   <a data-aos="fade-up" data-aos-delay="200" href="./index.html" class="btn-get-started" style="display: block; text-align: center; text-decoration: none; color: white; background-color: #e53653; padding: 10px 30px; border-radius: 5px; margin-top: 20px;">Reset</a>
   </form>
  </div>
