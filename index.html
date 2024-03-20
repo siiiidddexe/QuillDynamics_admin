@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Quill Dynamics Admin Page</title>
+ 
+  <link href="./assets/site_title.png" rel="icon">
+ <link rel="stylesheet" href="whatsapp.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+ <style>
+
+
+ </style>
+</head>
+<body>
+ <div class="container">
+  <h2>Assignment Order</h2>
+  <p>Leave your message and we will get back to you shortly.</p>
+  <form action="">
+   <div>
+    <span>
+     <label for="name">Full Name</label><br/>
+     <input id="name" type="text" placeholder="Full Name">
+    </span>
+    <span>
+     <label for="tel">Phone Number</label><br/>
+     <input id="number2" type="tel"   pattern="\d{10}" placeholder="Phone Number">
+    </span>
+   </div>
+   <br/>
+   <div>
+    <span>
+     <label>What to Write In?</label>
+     <select class="form-select" id="selectedOption" aria-label="Default select example" placeholder="Choose Service">
+      <option value="Choose Service" selected>Choose Service</option>
+      <option value="A4 Assignment">A4 Assignment</option>
+      <option value="New Lab Record (Extra ₹60)">New Lab Record (Extra ₹60)</option>
+      <option value="New Class Notebook (Extra ₹40)">New Class Notebook (Extra ₹40)</option>
+      <option value="Submit Existing Class Notebook at above Chosen Outlet">Submit Existing Class Notebook at above Chosen Outlet</option>
+      <option value="Submit Existing Lab Record at above Chosen Outlet">Submit Existing Lab Record at above Chosen Outlet</option>
+     </select>
+     <br/><br/>
+    </span>
+    <span>
+     <label>Outlets  Available Pickup and Drop</label>
+     <select class="form-select" id="argb" aria-label="Default select example">
+      <option value="Choose an Outlet">Choose an Outlet</option>
+      <option value="Presidency University Launchpad [E Block 1st Floor](For Presidency University Students ONLY)">Presidency University Launchpad [E Block 1st Floor](For Presidency University Students ONLY)</option>
+      <option value="Presidency University GATE">Presidency University GATE</option>
+      <option value="Avallahali bmsit college">Avallahali bmsit college</option>
+      <option value="Nelamangala">Nelamangala</option>
+      <option value="Christian college horamavu">Christian college horamavu</option>
+      <option value="Rajankunte Bangalore">Rajankunte Bangalore</option>
+      <option value="Mathikere Bangalore">Mathikere Bangalore</option>
+      <option value="RT Nagar, Bangalore">RT Nagar, Bangalore</option>
+      <option value="Dibbur, Bengaluru">Dibbur, Bengaluru</option>
+     </select>
+     <br/><br/>
+    </span>
+   </div>
+   <span>
+
+
+    <label for="name">By When Do You Want Us to Complete Your Assignment (*choosing a date earlier will increase the cost EXPRESS DELIEVRY)</label><br/>
+    
+    <input type="date" id="name2" class="form-select" placeholder="DD/MM/YYYY" name="Submit_day">
+	<br/><br/>
+   </span>
+   <span>
+    <label for="email">Estimate Total Number of Pages</label><br/>
+    <input id="page" type="number" placeholder="Total Pages">
+   </span>
+   <br/><br/>
+   <span>
+    <label>Choose Rate</label>
+    <select class="form-select" id="argb2" aria-label="Default select example">
+     <option value="Choose Rate">Choose Rate</option>
+     <option value="11.5">Standard 11.5Rs/Side </option>
+     <option value="17">Express 17Rs/Side </option>
+ 
+
+    </select>
+    <br/><br/>
+   </span>
+   <span>
+    <label for="Refrence Code">Refrence Code</label><br/>
+    <input id="ref" type="text" placeholder="Refrence Code">
+   </span>
+  <span>
+
+   <br/>
+ 
+   
+   <button onclick="sendToWhatsapp()" style="width: 100%;" >Client Copy</button>
+   <button onclick="sendToWhatsapp()" style="width: 100%;" >Writer's Copy</button>
+  <a data-aos="fade-up" data-aos-delay="200" href="./index.html" class="btn-get-started" style="display: block; text-align: center; text-decoration: none; color: white; background-color: #e53653; padding: 10px 30px; border-radius: 5px; margin-top: 20px;">Reset</a>
+  </form>
+ </div>
+
+ <footer>
+   <div class="social-icons">
+     <a href="https://www.facebook.com/estoresmarket/"><i class="fab fa-facebook-f"></i></a>
+     <a href="mailto:brandestores@gmail.com"><i class="fas fa-envelope"></i></a>
+     <a href="https://www.instagram.com/estores_global/"><i class="fab fa-instagram"></i></a>
+     <a href="https://in.linkedin.com/in/estores-global-91a56b20b"><i class="fab fa-linkedin"></i></a>
+   </div>
+ </footer>
+ <script src="whatsapp.js"></script>
+</body>
+</html>
