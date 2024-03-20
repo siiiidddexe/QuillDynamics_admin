@@ -36,7 +36,7 @@ function sendToWhatsapp(){
 	+"*Total pages :*" +" "+pages+" "+ "%0a"	
 	+ "*Outlets Available For Pickup and Drop*" +" "+select2+" "+ "%0a"
 	+ "*Submission Day:*" +" "+name2+" "+ "%0a"
-	+ "*Rate Per Page:*" +" "+select3+"Rs/Side"+" "+ "%0a"
+	+ "*Rate Per Page:*" +" "+select3+"Rs/Page"+" "+ "%0a"
 	+ "*Total Cost:*" +" "+rem+" "+ "%0a"
 	+ "%0a"
 	+ "*For any issues feel free to contact us at: 8549013115 or 7892848358*" + "%0a"
@@ -69,7 +69,7 @@ else{
 	rem=total_writer+0;
 }
 	var url = "https://wa.me/"+ "?text="
-	+"*Writer's Listing!*"+ "%0a"+ "%0a"
+	+"*Writer's Listing*"+ "%0a"+ "%0a"
 
 	+"*Welcome to Quill Dynamics,Think precision, Think Quill Dynamics.*"+ "%0a" +"*New Order Details:*"+ "%0a" + "%0a"
 	+ "*Refrence Code:*"+" "+refcode+ "%0a"
@@ -83,7 +83,7 @@ else{
 
 	+ "*Deadline of Completion:*" +" "+name2+" "+ "%0a"
 
-	+ "*Rate Per Page:*" +" "+Rate_Writers+"Rs/Side"+" "+ "%0a"
+	+ "*Rate Per Page:*" +" "+Rate_Writers+"Rs/Page"+" "+ "%0a"
 
 	+ "*Total Cost:*" +" "+rem+" "+ "%0a"
 	+ "%0a"
