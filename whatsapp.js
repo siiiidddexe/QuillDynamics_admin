@@ -66,7 +66,7 @@ else if (length=30){
 else{
 	rem=total_writer+0;
 }
-	var url = "https://wa.me/" +"+91" + number2 + "?text="
+	var url = "https://wa.me/"+ "?text="
 	+"*Writer's Listing!*"+ "%0a"+ "%0a"
 
 	+"*Welcome to Quill Dynamics,Think precision, Think Quill Dynamics.*"+ "%0a" +"*New Order Details:*"+ "%0a" + "%0a"
