@@ -40,7 +40,7 @@ function sendToWhatsapp(){
 	+ "*Total Cost:*" +" "+rem+" "+ "%0a"
 	+ "%0a"
 	+ "*For any issues feel free to contact us at: 8549013115 or 7892848358*" + "%0a"
-	+ "Or Visit : https://quilldynamics.vercel.app"+ "%0a"
+	+ "Or Visit : https://www.linkedin.com/in/v-s-kavshik/"+ "%0a"
 
 	window.open(url, '_blank').focus();
 }
@@ -88,6 +88,6 @@ else{
 	+ "*Total Cost:*" +" "+rem+" "+ "%0a"
 	+ "%0a"
 	+ "*For any issues feel free to contact us at: 8549013115 or 7892848358*" + "%0a"
-	+ "Or Visit : https://quilldynamics.vercel.app"+ "%0a"
+	+ "Or Visit : https://www.linkedin.com/in/v-s-kavshik/"+ "%0a"
 	window.open(url, '_blank').focus();
 }///*
