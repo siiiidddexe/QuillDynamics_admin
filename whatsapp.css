@@ -7,11 +7,19 @@
     color: #444;
 }
 
+@media screen and (min-width: 508px) {
+    /* Tablet and desktop styles */
+    .container {
+        width: 100%;
+        zoom: 150%; /* Adjusted width for tablets */
+    }
+}
 /* Media queries for responsiveness */
 @media screen and (min-width: 768px) {
     /* Tablet and desktop styles */
     .container {
-        width: 100%; /* Adjusted width for tablets */
+        width: 100%;
+        zoom: 150%; /* Adjusted width for tablets */
     }
 }
 
@@ -19,6 +27,7 @@
     /* Desktop styles */
     .container {
         width: 50%; /* Adjusted width for larger desktop screens */
+        zoom: 150%;
     }
 }
 
