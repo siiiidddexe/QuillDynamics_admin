@@ -10,15 +10,18 @@ function sendToWhatsapp(){
 	let name2 = document.getElementById('name2').value;
 	let totalcost = pages*select3;
 	let length = select.length;
+	let rem=0;
+	let book1=60;
+	let book2=40;
 
-	if (length=26){
-		rem=totalcost+60;
+	if (length==26){
+		rem=totalcost+book1;
 	}
-	else if (length=30){
-		rem=totalcost+40;
+	else if (length==30){
+		rem=totalcost+book2;
 	}
 	else{
-		rem=totalcost+0;
+		 rem=totalcost;
 	}
 
 	
@@ -49,7 +52,6 @@ function Whatsapp(){
 
 	let name = document.getElementById('name').value;
 	let Rate_Writers = document.getElementById('Rate_Writers').value;
-	let number2 = document.getElementById('number2').value;
 	let pages = document.getElementById('page').value;
 	let refcode = document.getElementById('ref').value;
 	var select = document.getElementById('selectedOption').value;
@@ -57,17 +59,20 @@ function Whatsapp(){
 	let name2 = document.getElementById('name2').value;
 	let total_writer = pages*Rate_Writers;
 let length = select.length;
+let rem=0;
+let book1=60;
+let book2=40;
 
-
-if (length=26){
-	rem=total_writer+60;
+if (length==26){
+	rem=total_writer+book1;
 }
-else if (length=30){
-	rem=total_writer+40;
+else if (length==30){
+	rem=total_writer+book2;
 }
 else{
-	rem=total_writer+0;
+	 rem=total_writer;
 }
+
 	var url = "https://wa.me/"+ "?text="
 	+"*Writer's Listing*"+ "%0a"+ "%0a"
 
