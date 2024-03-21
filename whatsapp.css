@@ -11,7 +11,7 @@
     /* Tablet and desktop styles */
     .container {
         width: 100%;
-        zoom: 200%; /* Adjusted width for tablets */
+        zoom: 100%; /* Adjusted width for tablets */
     }
 }
 /* Media queries for responsiveness */
@@ -19,7 +19,7 @@
     /* Tablet and desktop styles */
     .container {
         width: 100%;
-        zoom: 170%; /* Adjusted width for tablets */
+        zoom: 200%; /* Adjusted width for tablets */
     }
 }
 
