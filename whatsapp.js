@@ -8,11 +8,12 @@ function sendToWhatsapp(){
 	let select2 = document.getElementById('argb').value;
 	var select3 = document.getElementById('argb2').value;
 	let name2 = document.getElementById('name2').value;
-	let totalcost = pages*select3;
+	let totalcost = Side*select3;
 	let length = select.length;
 	let rem=0;
 	let book1=60;
 	let book2=40;
+	let Side = pages/2;
 
 	if (length==26){
 		rem=totalcost+book1;
@@ -39,7 +40,7 @@ function sendToWhatsapp(){
 	+"*Total pages :*" +" "+pages+" "+ "%0a"	
 	+ "*Outlets Available For Pickup and Drop*" +" "+select2+" "+ "%0a"
 	+ "*Submission Day:*" +" "+name2+" "+ "%0a"
-	+ "*Rate Per Page:*" +" "+select3+"Rs/Page"+" "+ "%0a"
+	+ "*Rate Per Side:*" +" "+select3+"Rs/Side"+" "+ "%0a"
 	+ "*Total Cost:*" +" "+rem+" "+ "%0a"
 	+ "%0a"
 	+ "*For any issues feel free to contact us at: 8549013115 or 7892848358*" + "%0a"
@@ -88,7 +89,7 @@ else{
 
 	+ "*Deadline of Completion:*" +" "+name2+" "+ "%0a"
 
-	+ "*Rate Per Page:*" +" "+Rate_Writers+"Rs/Page"+" "+ "%0a"
+	+ "*Rate Per Side:*" +" "+Rate_Writers+"Rs/Side"+" "+ "%0a"
 
 	+ "*Total Cost:*" +" "+rem+" "+ "%0a"
 	+ "%0a"
