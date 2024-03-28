@@ -8,17 +8,21 @@ function sendToWhatsapp(){
 	let select2 = document.getElementById('argb').value;
 	var select3 = document.getElementById('argb2').value;
 	let name2 = document.getElementById('name2').value;
-	let totalcost = pages*select3;
+	let totalcost = Side*select3;
 	let length = select.length;
+	let rem=0;
+	let book1=60;
+	let book2=40;
+	let Side = pages/2;
 
-	if (length=26){
-		rem=totalcost+60;
+	if (length==26){
+		rem=totalcost+book1;
 	}
-	else if (length=30){
-		rem=totalcost+40;
+	else if (length==30){
+		rem=totalcost+book2;
 	}
 	else{
-		rem=totalcost+0;
+		 rem=totalcost;
 	}
 
 	
@@ -36,7 +40,7 @@ function sendToWhatsapp(){
 	+"*Total pages :*" +" "+pages+" "+ "%0a"	
 	+ "*Outlets Available For Pickup and Drop*" +" "+select2+" "+ "%0a"
 	+ "*Submission Day:*" +" "+name2+" "+ "%0a"
-	+ "*Rate Per Page:*" +" "+select3+"Rs/Page"+" "+ "%0a"
+	+ "*Rate Per Side:*" +" "+select3+"Rs/Side"+" "+ "%0a"
 	+ "*Total Cost:*" +" "+rem+" "+ "%0a"
 	+ "%0a"
 	+ "*For any issues feel free to contact us at: 8549013115 or 7892848358*" + "%0a"
@@ -49,7 +53,6 @@ function Whatsapp(){
 
 	let name = document.getElementById('name').value;
 	let Rate_Writers = document.getElementById('Rate_Writers').value;
-	let number2 = document.getElementById('number2').value;
 	let pages = document.getElementById('page').value;
 	let refcode = document.getElementById('ref').value;
 	var select = document.getElementById('selectedOption').value;
@@ -57,17 +60,20 @@ function Whatsapp(){
 	let name2 = document.getElementById('name2').value;
 	let total_writer = pages*Rate_Writers;
 let length = select.length;
+let rem=0;
+let book1=60;
+let book2=40;
 
-
-if (length=26){
-	rem=total_writer+60;
+if (length==26){
+	rem=total_writer+book1;
 }
-else if (length=30){
-	rem=total_writer+40;
+else if (length==30){
+	rem=total_writer+book2;
 }
 else{
-	rem=total_writer+0;
+	 rem=total_writer;
 }
+
 	var url = "https://wa.me/"+ "?text="
 	+"*Writer's Listing*"+ "%0a"+ "%0a"
 
@@ -83,7 +89,7 @@ else{
 
 	+ "*Deadline of Completion:*" +" "+name2+" "+ "%0a"
 
-	+ "*Rate Per Page:*" +" "+Rate_Writers+"Rs/Page"+" "+ "%0a"
+	+ "*Rate Per Side:*" +" "+Rate_Writers+"Rs/Side"+" "+ "%0a"
 
 	+ "*Total Cost:*" +" "+rem+" "+ "%0a"
 	+ "%0a"

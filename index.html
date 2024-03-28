@@ -14,7 +14,7 @@
 <body>
  <div class="container">
   <h2>Assignment Order</h2>
-  <p>Leave your message and we will get back to you shortly.</p>
+
   <form action="">
    <div>
     <span>
@@ -60,7 +60,7 @@
    <span>
 
 
-    <label for="name">By When Do You Want Us to Complete Your Assignment </label><br/>
+    <label for="name">Date Of Completion</label><br/>
     <input type="date" id="name2" class="form-select" placeholder="Phone Number" name="Submit_day">
 	
     <br/><br/>
@@ -71,12 +71,11 @@
    </span>
    <br/><br/>
    <span>
-    <label>Choose Rate</label>
+    <label>Choose Customer Rate</label>
     <select class="form-select" id="argb2" aria-label="Default select example">
      <option value="Choose Rate">Choose Rate</option>
-     <option value="11.5">Standard 11.5Rs/Side (Minimum 3-4 Days) </option>
-     <option value="15">Medium 15Rs/Side (Minimum 2-3 Days) </option>
-     <option value="17">Express 17Rs/Side (Minimum 1-2 Days) </option>
+     <option value="17">Standard 17Rs/Side (Minimum 3-4 Days) </option>
+     <option value="18">Express 18Rs/Side (Minimum 1-2 Days) </option>
      
  
 
@@ -88,14 +87,22 @@
     <input id="ref" type="text" placeholder="Refrence Code">
    </span>
 </br>
-    <span>
-      </br>
-      <label for="email">Writer's Rate</label><br/>
-      <input id="Rate_Writers" type="number" placeholder="Writer's Rate/Side">
-     </span>
 
-    </br>
+
+</br>
  
+    <span>
+      <label>Writer's Rate</label>
+      <select class="form-select" id="Rate_Writers" aria-label="Default select example">
+       <option value="Choose Rate">Choose Rate</option>
+       <option value="8">Standard 8Rs/Side (Minimum 3-4 Days) </option>
+       <option value="12">Express 12Rs/Side (Minimum 1-2 Days) </option>
+       
+   
+  
+      </select>
+      <br/><br/>
+     </span>
    
    <button onclick="sendToWhatsapp()" style="width: 100%;" >Client Copy</button>
    <button onclick="Whatsapp()" style="width: 100%;" >Writer's Copy</button>
